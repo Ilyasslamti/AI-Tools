@@ -1,0 +1,14 @@
+<div class="tool">
+    <h2>عداد الكلمات</h2>
+    <textarea id="textInput" placeholder="اكتب النص هنا..."></textarea>
+    <button onclick="countWords()">حساب</button>
+    <p id="result"></p>
+</div>
+
+<script>
+    function countWords() {
+        const text = document.getElementById("textInput").value;
+        const words = text.split(" ").filter(word => word.length > 0);
+        document.getElementById("result").innerHTML = "عدد الكلمات: " + words.length;
+    }
+</script>

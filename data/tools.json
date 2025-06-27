@@ -1,0 +1,23 @@
+[
+    {
+        "name": "عداد الكلمات",
+        "description": "أداة لحساب عدد الكلمات والحروف في النص المقدم",
+        "category": "النصوص",
+        "icon": "fas fa-calculator",
+        "link": "word-counter.html"
+    },
+    {
+        "name": "مولد أكواد HTML",
+        "description": "أداة لإنشاء أكواد HTML جاهزة للاستخدام",
+        "category": "البرمجة",
+        "icon": "fas fa-code",
+        "link": "html-generator.html"
+    },
+    {
+        "name": "تحليل السيو",
+        "description": "أداة لفحص وتحسين محركات البحث للمقالات",
+        "category": "السيو",
+        "icon": "fas fa-search",
+        "link": "seo-analyzer.html"
+    }
+]
